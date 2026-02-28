@@ -22,7 +22,7 @@ class Program
        dispatcher.Register("/start", new StartCommand());
        dispatcher.Register("/help", new HelpCommand());
        dispatcher.Register("/week", new WeekCommand(scheduleRepository));
-       dispatcher.Register("/tomorrow", new TomorrowCommand(scheduleRepository));
+       dispatcher.Register("/today", new TodayCommand(scheduleRepository));
 
        using var cts = new CancellationTokenSource();
        var receiverOptions = new ReceiverOptions { AllowedUpdates = Array.Empty<UpdateType>() };

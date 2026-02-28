@@ -12,7 +12,7 @@ public class HelpCommand : ICommand
                      "/start - приветствие.\n" +
                      "/help - помощь.\n" +
                      "/week [group] - расписание на неделю определённого класса обучения.\n"
-                     "/tomorrow - расписание на завтра.";
+                     "/today - расписание на сегодня.";
 
        await botClient.SendTextMessageAsync(chatId, text, cancellationToken: ct);
    }
