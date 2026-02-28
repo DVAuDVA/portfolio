@@ -59,13 +59,13 @@ public class TodayCommand : ICommand
 
       if (dayschedule.Lessons == null || dayschedule.Lessons.Count == 0)
       {
-        lines.Add("Сегодня занятий нет.")
+        lines.Add("Сегодня занятий нет.");
       }
       else
       {
         lines.AddRange(
             daySchedule.Lessons.Select(
-                (l, i) => $"{i + 1}. {l.Time} - {l.Subject} : " + (string.IsNullOrEmpty(l.Teacher) ? $"{l.teacher}")
+                (l, i) => $"{i + 1}. {l.Time} - {l.Subject} : " + (string.IsNullOrEmpty(l.Teacher) ? "" : $"{l.Teacher}")
             )
         );
       }
