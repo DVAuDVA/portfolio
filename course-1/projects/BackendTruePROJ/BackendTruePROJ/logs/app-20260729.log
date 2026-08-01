@@ -1,0 +1,24 @@
+2026-07-29 16:28:18.845 +03:00 [INF] Now listening on: http://localhost:5000
+2026-07-29 16:28:18.897 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-07-29 16:28:18.902 +03:00 [INF] Hosting environment: Development
+2026-07-29 16:28:18.906 +03:00 [INF] Content root path: D:\Костя блендер\BackendTruePROJ\BackendTruePROJ
+2026-07-29 16:28:45.099 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2026-07-29 16:28:45.252 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 155.4168ms
+2026-07-29 16:28:45.285 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.css - null null
+2026-07-29 16:28:45.285 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - null null
+2026-07-29 16:28:45.285 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - null null
+2026-07-29 16:28:45.285 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.js - null null
+2026-07-29 16:28:45.295 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - null null
+2026-07-29 16:28:45.334 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - null null
+2026-07-29 16:28:45.336 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.js - 200 null application/javascript;charset=utf-8 49.0521ms
+2026-07-29 16:28:45.339 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - 200 14919 application/javascript; charset=utf-8 44.0343ms
+2026-07-29 16:28:45.343 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - 200 26499 text/css 81.3003ms
+2026-07-29 16:28:45.343 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.css - 200 152 text/css 81.4033ms
+2026-07-29 16:28:45.349 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - 200 77731 text/javascript 86.8856ms
+2026-07-29 16:28:45.352 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - 200 421507 text/javascript 66.8921ms
+2026-07-29 16:28:45.363 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - null null
+2026-07-29 16:28:45.406 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.2689ms
+2026-07-29 16:28:45.476 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2026-07-29 16:28:45.485 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - null null
+2026-07-29 16:28:45.489 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - 200 628 image/png 4.0082ms
+2026-07-29 16:28:45.508 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.7212ms
