@@ -18,14 +18,14 @@ const Status = styled.p<{isRead: boolean}>`
     color: ${({isRead}) => (isRead ? '#d2e' : '#e4f')};
     font-size: 26px;
 `;
-
+/*
 const Image = styled.img<{isRead: boolean}>`
     width: 320px;
     font-size: 26px;
     border: 10px solid transparent;
 `;
+*/
 
-/*
 const Image = styled.img<{isRead: boolean}>`
     width: 320px;
     font-size: 26px;
@@ -38,7 +38,6 @@ const Image = styled.img<{isRead: boolean}>`
     1:
     border-image-slice: 1;
 `;
-*/
 
 const Rating = styled.div<{rating: number}>`
     font size: 26px;
